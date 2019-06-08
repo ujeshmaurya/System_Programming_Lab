@@ -1,0 +1,31 @@
+
+mstart pqrs(a,b,c,d)
+	(a)=input()		~~this is comment
+	(b)=input()
+	(c)=input()
+	(d)=(a)+(b)+(c)
+	printf "ujesh"
+mend
+
+
+mstart mul3(a,b,c)
+(c)*mul2((a),(b))
+mend
+
+mstart mul2(a,b)
+(a)*(b)
+mend
+
+mstart make()
+print "start"
+mend
+
+	~~using a macro
+main	
+make()
+pqrs(p,q,r,z)	
+d=10,e=7,f=9;
+print z	
+c=mul3(d,e,f)	~~using a nested macro
+print c
+

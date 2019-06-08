@@ -1,0 +1,33 @@
+#include<stdio.h>
+#include<stdlib.h>
+mstart pqrs(a,b,c,d)
+	scanf("%d%d%d",&(a),&(b),&(c));		~~this is comment
+	printf("%d %d %d",(a),(b),(c));	
+	(d)=(a)+(b)+(c);
+	printf("ujesh");
+mend
+
+
+mstart mul3(a,b,c)
+(c)*mul2((a),(b));
+mend
+
+mstart mul2(a,b)
+(a)*(b)
+mend
+
+mstart make()
+printf("start");
+mend
+
+
+int main()
+{
+	make()
+	int p,q,r,z;	~~using a macro 
+	pqrs(p,q,r,z)	
+	int c,d=10,e=7,f=9;
+	printf("%d %d %d",d,e,f);	
+	c=mul3(d,e,f)	~~using a nested macro
+	return 0;
+}
